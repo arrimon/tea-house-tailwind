@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Install Tailwind with CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome KIT -->
+     <script src="https://kit.fontawesome.com/5be7ad8ebc.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            font-family: "Manrope", sans-serif;
+        }
+        @keyframes bounce-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-slow {
+            animation: bounce-slow 3s ease-in-out infinite;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Banner With Gemini AI -->
+    <!-- <section class="relative max-w-7xl mx-auto px-6 py-12 lg:py-24 overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="order-2 lg:order-1 text-center lg:text-left z-10">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#1A1A1A] leading-[1.1] mb-6">
+                    It’s good <br> tea time at The <br> Tea House
+                </h1>
+                <p class="text-gray-500 text-lg md:text-xl max-w-md mx-auto lg:mx-0 mb-10 leading-relaxed">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                
+                <button class="group relative inline-flex items-center justify-between bg-gradient-to-r from-[#FF8C42] to-[#FF0000] text-white font-bold py-4 px-8 rounded-xl transition-transform hover:scale-105 active:scale-95 shadow-lg">
+                    <span class="mr-4 text-xl">Explore More</span>
+                    <img src="arrow.png" alt="arrow" class="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">
+                </button>
+            </div>
+
+            <div class="order-1 lg:order-2 relative flex justify-center items-center">
+                <div class="relative w-full max-w-[500px]">
+                    <img src="./images/banner.png" alt="Tea Drinks" class="w-full h-auto object-contain drop-shadow-2xl">
+                    
+                    <div class="absolute bottom-4 left-0 md:-left-10 bg-white p-4 md:p-6 rounded-2xl shadow-xl flex items-center space-x-4 animate-bounce-slow">
+                        <div class="bg-yellow-50 p-2 rounded-full">
+                            <img src="./images/start.png" alt="Star" class="w-8 h-8 md:w-10 md:h-10">
+                        </div>
+                        <div>
+                            <div class="text-2xl md:text-3xl font-black text-gray-900">5.00</div>
+                            <div class="text-gray-400 text-sm md:text-base font-medium">Trust Pilot Ratings</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- Banner Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:max-w-7xl md:max-w-3xl mx-auto">
+        <div class="order-2 md:order-1 banner-left my-auto mx-auto text-center md:text-start  mt-10">
+            <h2 class="text-[40px] md:text-[3rem] lg:text-[5rem] font-extrabold leading-[125%]">It's good<br> 
+                tea time at The<br>
+                Tea House
+            </h2>
+            <p class="text-[#777] leading-[167%] mb-3">Tea and Botanical Solutions Supplier Give Optimum<br>Satisfaction To Your Taste Buds.</p>
+            <button class="py-2 px-4 rounded-md font-semibold bg-gradient-to-r from-orange-400 to-red-500 text-white hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-400">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+        <div class="order-1 items-center md:order-2 banner-righ flex justify-end relative">
+            <img src="./images/banner.png" class="w-full h-auto" alt="" srcset="">
+            <div class="bg-white rounded-md shadow-2xl w-[180px] h-[70px] md:w-[220px] md:h-[70px] flex justify-evenly items-center absolute bottom-1 left-15 md:left-25 md:bottom-3 lg:bottom-6 animate-bounce-slow">
+                <img class="w-10 h-10" src="./images/start.png" alt="Rating">
+                <div>
+                    <h2 class="font-bold text-2xl">5.00</h2>
+                    <p>Trust Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 md:mt-24">
+        <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+            <h2 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-[#1A1A1A] leading-tight mb-6">
+                Our Featured Products
+            </h2>
+            <p class="text-gray-500 text-lg leading-relaxed">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            
+            <div class="group bg-gradient-to-t from-white to-gray-50 rounded-2xl p-8 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-orange-100">
+                <div class="mb-6 transform group-hover:scale-110 transition-transform duration-300">
+                    <img src="./images/tea-1.png" alt="Milk Tea" class="mx-auto h-48 object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Milk Tea</h3>
+                <p class="text-gray-500 leading-relaxed">
+                    Creamer could be replaced by fresh milk for a richer taste.
+                </p>
+            </div>
+
+            <div class="group bg-gradient-to-t from-white to-gray-50 rounded-2xl p-8 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-orange-100">
+                <div class="mb-6 transform group-hover:scale-110 transition-transform duration-300">
+                    <img src="./images/tea-2.png" alt="Black Tea" class="mx-auto h-48 object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Black Tea</h3>
+                <p class="text-gray-500 leading-relaxed">
+                    Creamer could be replaced by fresh milk for a richer taste.
+                </p>
+            </div>
+
+            <div class="group bg-gradient-to-t from-white to-gray-50 rounded-2xl p-8 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-orange-100">
+                <div class="mb-6 transform group-hover:scale-110 transition-transform duration-300">
+                    <img src="./images/tea-3.png" alt="Lemon Tea" class="mx-auto h-48 object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Lemon Tea</h3>
+                <p class="text-gray-500 leading-relaxed">
+                    Creamer could be replaced by fresh milk for a richer taste.
+                </p>
+            </div>
+
+            <div class="group bg-gradient-to-t from-white to-gray-50 rounded-2xl p-8 text-center shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-orange-100">
+                <div class="mb-6 transform group-hover:scale-110 transition-transform duration-300">
+                    <img src="./images/tea-4.png" alt="Green Tea" class="mx-auto h-48 object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Green Tea</h3>
+                <p class="text-gray-500 leading-relaxed">
+                    Creamer could be replaced by fresh milk for a richer taste.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    
+  </body> 
+</html>
